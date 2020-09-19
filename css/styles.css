@@ -121,3 +121,19 @@ nav {
     width: 60%;
     font-size: 18px;
 }
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(150, 65, 72);
+    height: 30vh;
+}
+#contact h1 {
+    font-size: 30px;
+    color: rgb(41, 39, 39);
+}
+#contact p {
+    font-size: 20px;
+}
