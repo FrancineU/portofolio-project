@@ -106,3 +106,18 @@ nav {
     color: black;
     border-radius: 3px;
 } 
+#about-section {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+#about-section h1{
+    width: 50%;
+}
+#about-section p {
+    width: 60%;
+    font-size: 18px;
+}
