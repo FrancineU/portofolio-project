@@ -42,6 +42,7 @@ nav {
     float: left;
     margin-left: 20%;
     margin-right: 100px;
+    margin-bottom: 0;
 }
 #my-description p{
     font-family: monospace;
@@ -61,3 +62,47 @@ nav {
     color: black;
     font-size: 20px;
 }
+#project-section {
+    background-color: rgb(255, 255, 255);
+    color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+#project-section h2{
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#project-section ul {
+   margin-left: 200px;
+}
+#project-section ul li {
+    display: inline;
+    float: left;
+    width: 20%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid transparent;
+    margin-right: 40px;
+    position: relative;
+    background-color: rgb(236, 232, 238);
+
+}
+#project-section ul li p {
+    color: rgb(109, 83, 83);
+}
+.project-link {
+    text-decoration: none;
+    color: rgb(150, 65, 72);
+    border: 1px solid;
+    padding: 10px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.project-link:hover {
+    background-color: rgb(150, 65, 72);
+    color: black;
+    border-radius: 3px;
+} 
