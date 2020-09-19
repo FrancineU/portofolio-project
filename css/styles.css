@@ -1,5 +1,37 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(48, 31, 35);
+    background-color: rgb(218, 205, 224);
+    margin: 0;
     color: white;
+}
+nav {
+    height: 10vh;
+    max-width: 100%;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    justify-content: space-around;
+}
+.nav-brand {
+    align-self: center;
+    color: rgb(249, 250, 244);
+    font-size: 25px;
+    font-style: italic;
+
+}
+.nav-content {
+    align-self: center;
+}
+.nav-content ul li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.nav-content ul li a {
+    text-decoration: none;
+    color: rgb(230,240,180);
+}
+.nav-content ul li a:hover {
+    background-color: rgb(115, 128, 71);
+    padding: 10px;
+    border-radius: 2px;
 }
