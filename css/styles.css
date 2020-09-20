@@ -149,7 +149,7 @@ nav {
     font-size: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 200px) and (max-width: 767px){
     nav {
         height: 8vh;
         background-color: rgb(29, 27, 27);
@@ -189,6 +189,7 @@ nav {
     }
     #heading-section img {
         width: 250px;
+        height: 250px;
     }
     #project-section {
         color: darkred;
