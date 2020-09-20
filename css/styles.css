@@ -110,16 +110,18 @@ nav {
     background-color: rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+    height: 40vh;
 }
 #about-section h1{
-    width: 50%;
+    align-self: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgb(46, 42, 42);
 }
 #about-section p {
-    width: 60%;
+    width: 35%;
     font-size: 18px;
+    text-align: justify;
+    margin-left: 30%;
 }
 #contact {
     display: flex;
