@@ -41,7 +41,8 @@ nav {
 }
 #heading-section {
     background-color:rgba(0, 0, 0, 0.5);
-    padding-top: 10%;
+    padding-top: 6%;
+    padding-bottom: 2%;
 }
 #my-description {
     float: left;
@@ -80,6 +81,7 @@ nav {
 }
 #project-section ul {
    margin-left: 200px;
+  
 }
 #project-section ul li {
     display: inline;
@@ -116,6 +118,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: 40vh;
+    clear: left;
 }
 #about-section h1{
     align-self: center;
