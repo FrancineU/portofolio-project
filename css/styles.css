@@ -10,6 +10,10 @@ nav {
     background-color: rgb(29, 27, 27);
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 .nav-brand {
     align-self: center;
@@ -37,6 +41,7 @@ nav {
 }
 #heading-section {
     background-color:rgba(0, 0, 0, 0.5);
+    padding-top: 10%;
 }
 #my-description {
     float: left;
